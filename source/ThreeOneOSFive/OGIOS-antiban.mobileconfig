@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadIdentifier</key>
+	<string>com.ogios.antiban.certificate-profile</string>
+	<key>PayloadUUID</key>
+	<string>62D0B9DF-A3ED-4F27-A91A-868C650A2EE5</string>
+	<key>PayloadDisplayName</key>
+	<string>OGIOS Antiban Certificate</string>
+	<key>PayloadDescription</key>
+	<string>Configuration profile containing the supplied Shadowrocket root CA certificate.</string>
+	<key>PayloadOrganization</key>
+	<string>OGIOS</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.ogios.antiban.rootca</string>
+			<key>PayloadUUID</key>
+			<string>C1A8CB20-CF28-4A2A-A9A7-EEEB7077AEA7</string>
+			<key>PayloadDisplayName</key>
+			<string>OGIOS Antiban CA (Shadowrocket)</string>
+			<key>PayloadDescription</key>
+			<string>Installs the supplied self-signed Shadowrocket CA certificate. Review and trust only if you recognize its source.</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIDTTCCAvOgAwIBAgIUXSjK1Jd0Q5iN/UqEMuFuUC3sw2IwCgYI
+			KoZIzj0EAwIwgY8xCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxp
+			Zm9ybmlhMRIwEAYDVQQHDAlQYWxvIEFsdG8xFTATBgNVBAoMDFNo
+			YWRvd3JvY2tldDEVMBMGA1UECwwMU2hhZG93cm9ja2V0MSkwJwYD
+			VQQDDCBTaGFkb3dyb2NrZXQgMjAyNi0xMS0xNiAyMjozMTo1OTAe
+			Fw0yNjExMTYxNTMxNTlaFw0zNjExMTMxNTMxNTlaMIGPMQswCQYD
+			VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTESMBAGA1UEBwwJ
+			UGFsbyBBbHRvMRUwEwYDVQQKDAxTaGFkb3dyb2NrZXQxFTATBgNV
+			BAsMDFNoYWRvd3JvY2tldDEpMCcGA1UEAwwgU2hhZG93cm9ja2V0
+			IDIwMjYtMTEtMTYgMjI6MzE6NTkwWTATBgcqhkjOPQIBBggqhkjO
+			PQMBBwNCAARwzV4LBZPrllufac4N0nJP3udv1WmtIv45AQZxsfur
+			QwBdhRWEB5O/yABDDd96nWehCKseO3W26nDti0yzR8FKo4IBKTCC
+			ASUwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAYYwHQYD
+			VR0OBBYEFBr3AHoxov8FfE6YtAROwpYl22huMIHPBgNVHSMEgccw
+			gcSAFBr3AHoxov8FfE6YtAROwpYl22huoYGVpIGSMIGPMQswCQYD
+			VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTESMBAGA1UEBwwJ
+			UGFsbyBBbHRvMRUwEwYDVQQKDAxTaGFkb3dyb2NrZXQxFTATBgNV
+			BAsMDFNoYWRvd3JvY2tldDEpMCcGA1UEAwwgU2hhZG93cm9ja2V0
+			IDIwMjYtMTEtMTYgMjI6MzE6NTmCFF0oytSXdEOYjf1KhDLhblAt
+			7MNiMBEGCWCGSAGG+EIBAQQEAwICBDAKBggqhkjOPQQDAgNIADBF
+			AiBAmS1SXdLgQUinO3Cx5R1b3cTV12pbxNAzA4LRpeoxpAIhAKkf
+			d5UFkVzuVsWeHngI3lMjtQkGLFplA8AiCCz5VisO
+			</data>
+		</dict>
+	</array>
+</dict>
+</plist>
