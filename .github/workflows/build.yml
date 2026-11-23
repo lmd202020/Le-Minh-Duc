@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build OGIOS (Maximum Hardened)
-    runs-on: macos-15
+    runs-on: macos-15-intel
 
     steps:
       - name: Checkout
