@@ -342,9 +342,9 @@ struct AdminTabView: View {
             )
 
             robotButton(
-                icon: "square.stack.3d.up.fill",
-                title: "PATCH PROJECTS",
-                subtitle: "MANAGE PROJECTS",
+                icon: "folder.fill",
+                title: "TỆP",
+                subtitle: "XEM TỆP FREE FIRE TH / VN",
                 color: AdminRobotTheme.cyan
             ) {
                 sheet = .projects
